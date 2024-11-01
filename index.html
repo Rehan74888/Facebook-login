@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+       <img src="Facebook-Logo.jpg" alt="Facebook-Logo">
+       <p>Connect with friends and the world around you on Facebook.</p>
+    </div>
+    <div class="login">
+        <form>
+            <input type="text" id="email/no" name="text" placeholder="Email or phone number"><br><br>
+            <input type="password" id="pass" name="password" placeholder="Password"><br><br>
+            <input type="submit" value="Login">
+            <a href="#"><p>Forgot password?</p></a>
+            <hr>
+            <button><p>Create new password</p></button>
+        </form>
+    </div>
+<style>
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .main {
+        width: 50%;
+        padding-top: 25%;
+        vertical-align: top;
+        padding-left: 40px;
+        display: inline-block;
+    }
+    .main p {
+        width: 50%;
+        font-size: 19px;
+    }
+    .login {
+        width: 350px;
+        padding: 20px;
+        margin-top: 20%;
+        box-shadow: #6e6e6e 0px 0px 6px 0px;
+        border-radius: 15px;
+        display: inline-block;
+    }
+    .main img {
+        width: 250px;
+    }
+    input[type="submit" i] {
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px 0px;
+        border: none;
+        background-color: rgb(56, 102, 187);
+        color: white;
+        cursor: pointer;
+    }
+    button {
+        display: block;
+        margin: auto;
+        margin-top: 35px;
+        border: none;
+        border-radius: 5px;
+        padding: 0px 10px;
+        background-color: rgb(50, 156, 50);
+        color: white;
+        cursor: pointer;
+    }
+    .login a {
+        text-align: center;
+    }
+    input[type="text" i], input[type="password" i] {
+        width: 315px;
+        box-shadow: 0px 0px 2px 0px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+    }
+    input:focus {
+        outline: none;
+    }
+    .login a {
+        color: rgb(21, 119, 119);
+        text-decoration: unset;
+    }
+</style>    
+</body>
+</html>
